@@ -13,7 +13,7 @@
 			  $ sudo apt-get install php php-pgsql
 
 - Install process
-    + git clone
+    + git clone	https://github.com/kouhaku111/dksis.git
     + restore database using dksis.backup
     + apache configuration
         $ cd /etc/apache2/sites-available
