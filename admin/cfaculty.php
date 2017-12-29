@@ -12,8 +12,8 @@ if(isset($_GET['id'])) {
 <html>
 <head>
 <title>Title of the document</title>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/canvasjs.min.js"></script>
  <link rel="stylesheet" href="../css/cfaculty.css">
 </head>
  <body>
