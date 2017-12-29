@@ -27,7 +27,7 @@ if(isset($_GET['login'])) {
 				$_SESSION['client_id'] = $_GET['id'];
 				header('location: student/student.php');
 			} else {
-				$warning = 'not your time to login';
+				$warning = 'không phải thời điểm đăng nhập';
 			}
 		} else if($privilege == '2') {
 			$_SESSION['client_id'] = $_GET['id'];
@@ -35,7 +35,7 @@ if(isset($_GET['login'])) {
 		}
 	}
 	else {
-		$warning = "Wrong username or password";
+		$warning = "sai tên đăng nhập hoặc mật khẩu";
 	}
 }
 ?>
