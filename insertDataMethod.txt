@@ -1,0 +1,13 @@
+After inserting into client table 
+=> System auto inserts into semester_result in four semester from 20161 to 20172 and rank table
+
+After deleting from client table
+=> System auto delete records from semester_result and rank table
+
+After student success registed => System auto update corresponding result for subject in that semester
+
+After student success delete subject from register table => System auto deletes record from result table
+
+After admin update score for students => System auto updates gpa, grade(A+, A, B+ ,...), final_result(for award), semester_result, cpa
+
+
