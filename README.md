@@ -3,14 +3,14 @@
 
 - Installed package
     + postgresql  
-	      $ sudo apt-get update
+	$ sudo apt-get update
         $ sudo apt-get install postgresql postgresql-contrib
         $ sudo apt-get install pgadmin3 (optional)
     + apache2		
-			  $ sudo apt-get update
-    		$ sudo apt-get install apache2
+	$ sudo apt-get update
+    	$ sudo apt-get install apache2
     + php       	
-			  $ sudo apt-get install php php-pgsql
+	$ sudo apt-get install php php-pgsql
 
 - Install process
     + git clone	https://github.com/kouhaku111/dksis.git
@@ -25,8 +25,8 @@
            ServerName dk.dev
            ServerAlias www.dk.dev 
            ServerAdmin admin@example.com
-           DocumentRoot /home/tung/dk
-           <Directory /home/tung/dk>
+           DocumentRoot /home/username/dksis
+           <Directory /home/username/dksis>
               Options Indexes FollowSymLinks
               AllowOverride None
               Require all granted
