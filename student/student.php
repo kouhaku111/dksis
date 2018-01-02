@@ -100,6 +100,7 @@ if(isset($_GET['delete'])) {
 				$teacher_rate = $teach->getRate($teacher_id, $subject_id);
 
 				$rate = $student_rate * 0.5 + $teacher_rate * 0.5 - ($credit + $totalCredit) / 24 * 20; 
+				$rate = ($rate < 0) ? 0 : $rate;
 				echo "<td>". number_format((float)$rate, 2, '.', '') . '%';
                                 echo '<input type="checkbox" name="check[]" value="'.$row['class_code'].'">' ."</td>";
 				echo "</tr>";
